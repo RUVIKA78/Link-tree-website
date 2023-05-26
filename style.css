@@ -60,6 +60,7 @@ img{
 }
 .links :hover i{
     top: -10px;
+    color: #0087ca;
 }
 
 .links a{
@@ -67,6 +68,7 @@ img{
     font-family: 'Roboto', sans-serif;
     padding: 10px;
     color: #f8f8ff;
+
 }
 /* fonts div  */
 .fa{
@@ -98,20 +100,20 @@ img{
     margin-left: 45%;
     padding-bottom: 40px;
 }
-/* .links->a->li{
+.links->a->li{
     list-style: none;
    
     
     
-    /* margin-left: 20%; */
-    /* display:flex; */
-    /* justify-content: space-between; */
-    /* color: #f8f8ff; */
-    /* display: inline-block; */
-  /* position: relative; */
+    margin-left: 20%;
+    display:flex;
+    justify-content: space-between;
+    color: #f8f8ff;
+    display: inline-block;
+  position: relative;
+}
   
- 
-/* .link.a.li ::after{
+  .link.a.li ::after{
     content: '';
   position: absolute;
   width: 100%;
@@ -126,4 +128,4 @@ img{
 .link.a.li :hover ::after{
     transform: scaleX(1);
   transform-origin: bottom left;
-} */ 
+} 
